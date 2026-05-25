@@ -1,0 +1,12 @@
+name: "v2ray-xhttp"
+type: "nodejs:20"
+
+hooks:
+  build: |
+    npm install
+
+web:
+  commands:
+    start: "node server.js"
+
+disk: 1024
