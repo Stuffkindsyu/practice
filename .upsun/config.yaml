@@ -5,5 +5,3 @@ applications:
     web:
       commands:
         start: "node server.js"
-
-    disk: 1024
